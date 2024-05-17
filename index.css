@@ -308,12 +308,14 @@ body {
 		row-gap: 20px;
 	}
 	.intro {
-		width: 100%;
+		
+		box-sizing: border-box;
+		width: 96%;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	.about video {
-		width: 100%;
+	.about img {
+		width: 96%;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
@@ -327,12 +329,12 @@ body {
 	.diva {
 
 		width: 90%;
-		margin-left: 10px;
-		margin-right: 20px;
+		margin-left: auto;
+		margin-right: auto;
 
 	}
 	.divb {
-		width: 100%;
+		width: 96%;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
