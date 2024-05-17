@@ -291,6 +291,13 @@ body {
 		background-color: rgba(255, 255, 255, 0.322);
 		backdrop-filter: blur(10px);
 	}
+	.heading-and-motto h1
+	 {
+		font-size: 50px;
+	}
+	.heading-and-motto h2{
+		font-size: 30px;
+	}
 	.hero-section {
 		flex-direction: column;
 		row-gap: 20px;
@@ -308,9 +315,10 @@ body {
 		row-gap: 20px;
 	}
 	.intro {
-		
+		margin-left: auto;
+		margin-right: auto;
 		box-sizing: border-box;
-		width: 96%;
+		width: 94%;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
