@@ -383,6 +383,7 @@ footer div {
 		padding-right: 10px;
 	}
 	footer {
+		margin: 0;
 		padding-bottom: 20px;
 		display: flex;
 		flex-direction: column;
@@ -394,9 +395,10 @@ footer div {
 	footer a {
 		font-size: 15px;
 		box-sizing: border-box;
+		padding: 2.5px;
 
 	}
 	footer h3 {
-		font-size: 25px;
+		font-size: 20px;
 	}
 }
