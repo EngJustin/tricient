@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apply</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+   
+        <form action="apply.py" method="post">
+            <fieldset >
+                <legend>please fill all the required information</legend>
+                <div class="div1">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+            
+                    <label for="secondname">Second Name</label>
+                    <input type="text" name="secondname" id="secondname" required>
+            
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+
+                <div class="div2">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="18" required> <br>
+                    <br>
+            
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" required>
+            
+                    <label for="phone">phone number</label>
+                    <input type="tel" name="phone" id="phone" required placeholder="070000000">
+                    <br>
+                    
+                    <label for="grade">kcse grade</label>
+                    <select name="grade" id="grade">
+                        <option value=""></option>
+                        <option value="c-">C-</option>
+                        <option value="c">C</option>
+                        <option value="c+">C+</option>
+                        <option value="b-">B-</option>
+                        <option value="b">B</option>
+                        <option value="b+">B+</option>
+                        <option value="a-">A-</option>
+                        <option value="a">A</option>
+                        <option value="certificate">Certificate</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="div3">
+                    <label for="kcse"> up load your kcse certificate/result slip</label>
+                    <input type="file" id="kcse" name="kcse" required>
+                    <br> <br>
+                    <label for="course"> choose a course</label>
+                    <select name="course" id="course">
+                        <option value="perioperative nursing"> perioperative nursing</option>
+                        <option value="medical records">medical records</option>
+                        <option value="orthopedic nursing">orthopedic nursing</option>
+                    </select>
+                    <label for="level">choose the level</label>
+                    <select name="level" id="level">
+                        <option value="">none</option>
+                        <option value="diploma">Diploma</option>
+                        <option value="certificate">Certificate</option>
+                        
+                    </select>
+                </div>
+                <div class="div4">
+                    <label>feeding program</label>
+                    <input type="radio" id="self-feeding" name="feeding" required>
+                    <label for="self-feeding">self</label>
+                    <input type="radio" id="feeding" name="feeding" required>
+                    <label for="feeding">in school</label>
+                    <br>
+            
+                    <label>accomodation</label>
+                    <input type="radio" id="self-accomodation" name="accomodation" required>
+                    <label for="self-accomodation">self</label>
+                    <input type="radio" id="in-school-accomodation" name="accomodation" required>
+                    <label for="in-school-accomodation">hostel</label>
+                    <br>
+                
+                </div>
+                <br>
+                <input type="submit">
+                <input type="reset">
+                
+            </fieldset>
+        </form>    
+    
+        
+    
+</body>
+</html>
