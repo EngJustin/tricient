@@ -61,3 +61,21 @@ input[type="email"], input[type="text"] {
     display: flex; 
 }
 
+@media(max-width: 500px){
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+        display: block;
+    }
+    legend {
+        font-size: 1em;
+    }
+    fieldset {
+        width: fit-content;
+    }
+    label {
+        font-size: 1em;
+    }
+}
+
